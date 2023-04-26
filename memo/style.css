@@ -1,0 +1,75 @@
+body {
+    font-family: 'omyu_pretty';
+    background-color: #FFB4B4;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: #FFDEB4;
+    border: none;
+    box-shadow: 0 1px 0 0 #677880;
+    font-family: 'omyu_pretty';
+    font-size: 20px;
+    border-radius: 50px;
+}
+textarea {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    background-color: #FFDEB4;
+    font-family: 'omyu_pretty';
+    font-size: 20px;
+    border-radius: 10px;
+}
+button {
+    display: block;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(244, 138, 138);
+    font-family: 'omyu_pretty';
+    font-size: 20px;
+    color:white;
+    border-color: pink;
+}   
+.memo {
+    font-family: 'GangwonEduSaeeum_OTFMediumA';
+    font-size: 60px;
+    color: #524d47;
+    
+}
+.black-btn {
+font-family: 'omyu_pretty';    
+display: block;
+width: 100%;
+padding: 0;
+background: #B2A4FF;
+color: rgba(255, 255, 255, 0.863);
+height: 48px;
+border: 5;
+border-color: pink;
+font-weight: bold;
+font-size: 20px;
+border-radius: 100px;
+}
+@font-face {
+font-family: 'GangwonEduSaeeum_OTFMediumA';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduSaeeum_OTFMediumA.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'omyu_pretty';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+font-weight: normal;
+font-style: normal;
+}
